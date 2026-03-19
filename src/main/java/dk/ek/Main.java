@@ -8,4 +8,11 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Dav");
     }
+
+
+    public static void printNumber(int start, int end){
+        for (int i = start; i<=end; i++){
+            System.out.println(i);
+        }
+    }
 }
